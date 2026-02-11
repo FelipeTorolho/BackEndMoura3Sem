@@ -1,0 +1,21 @@
+CREATE DATABASE db_Estoque
+
+CREATE TABLE Categoria(
+id INT IDENTITY (1,1) PRIMARY KEY
+,nome NVARCHAR(255) NOT NULL
+);
+
+CREATE TABLE Produto (
+id INT IDENTITY(1,1) PRIMARY KEY
+,nome NVARCHAR(255) NOT NULL
+,preco DECIMAL (10,2) NOT NULL
+,id_Categoria INT
+
+FOREIGN KEY (id_Categoria) REFERENCES Categoria(id)
+
+);
+
+SELECT * FROM Categoria; 
+  
+SELECT * FROM Produto; 
+
