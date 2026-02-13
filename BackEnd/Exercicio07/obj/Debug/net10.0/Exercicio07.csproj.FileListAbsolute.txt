@@ -1,0 +1,15 @@
+C:\Users\42400772819\Desktop\BackEndMoura3Sem\BackEnd\Exercicio07\bin\Debug\net10.0\Exercicio07.exe
+C:\Users\42400772819\Desktop\BackEndMoura3Sem\BackEnd\Exercicio07\bin\Debug\net10.0\Exercicio07.deps.json
+C:\Users\42400772819\Desktop\BackEndMoura3Sem\BackEnd\Exercicio07\bin\Debug\net10.0\Exercicio07.runtimeconfig.json
+C:\Users\42400772819\Desktop\BackEndMoura3Sem\BackEnd\Exercicio07\bin\Debug\net10.0\Exercicio07.dll
+C:\Users\42400772819\Desktop\BackEndMoura3Sem\BackEnd\Exercicio07\bin\Debug\net10.0\Exercicio07.pdb
+C:\Users\42400772819\Desktop\BackEndMoura3Sem\BackEnd\Exercicio07\obj\Debug\net10.0\Exercicio07.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\42400772819\Desktop\BackEndMoura3Sem\BackEnd\Exercicio07\obj\Debug\net10.0\Exercicio07.AssemblyInfoInputs.cache
+C:\Users\42400772819\Desktop\BackEndMoura3Sem\BackEnd\Exercicio07\obj\Debug\net10.0\Exercicio07.AssemblyInfo.cs
+C:\Users\42400772819\Desktop\BackEndMoura3Sem\BackEnd\Exercicio07\obj\Debug\net10.0\Exercicio07.csproj.CoreCompileInputs.cache
+C:\Users\42400772819\Desktop\BackEndMoura3Sem\BackEnd\Exercicio07\obj\Debug\net10.0\Exercicio07.sourcelink.json
+C:\Users\42400772819\Desktop\BackEndMoura3Sem\BackEnd\Exercicio07\obj\Debug\net10.0\Exercicio07.dll
+C:\Users\42400772819\Desktop\BackEndMoura3Sem\BackEnd\Exercicio07\obj\Debug\net10.0\refint\Exercicio07.dll
+C:\Users\42400772819\Desktop\BackEndMoura3Sem\BackEnd\Exercicio07\obj\Debug\net10.0\Exercicio07.pdb
+C:\Users\42400772819\Desktop\BackEndMoura3Sem\BackEnd\Exercicio07\obj\Debug\net10.0\Exercicio07.genruntimeconfig.cache
+C:\Users\42400772819\Desktop\BackEndMoura3Sem\BackEnd\Exercicio07\obj\Debug\net10.0\ref\Exercicio07.dll

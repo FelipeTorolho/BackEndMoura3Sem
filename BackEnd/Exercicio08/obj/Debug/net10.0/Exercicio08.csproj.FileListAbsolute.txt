@@ -1,0 +1,15 @@
+C:\Users\42400772819\Desktop\BackEndMoura3Sem\BackEnd\Exercicio08\obj\Debug\net10.0\Exercicio08.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\42400772819\Desktop\BackEndMoura3Sem\BackEnd\Exercicio08\obj\Debug\net10.0\Exercicio08.AssemblyInfoInputs.cache
+C:\Users\42400772819\Desktop\BackEndMoura3Sem\BackEnd\Exercicio08\obj\Debug\net10.0\Exercicio08.AssemblyInfo.cs
+C:\Users\42400772819\Desktop\BackEndMoura3Sem\BackEnd\Exercicio08\obj\Debug\net10.0\Exercicio08.csproj.CoreCompileInputs.cache
+C:\Users\42400772819\Desktop\BackEndMoura3Sem\BackEnd\Exercicio08\obj\Debug\net10.0\Exercicio08.sourcelink.json
+C:\Users\42400772819\Desktop\BackEndMoura3Sem\BackEnd\Exercicio08\bin\Debug\net10.0\Exercicio08.exe
+C:\Users\42400772819\Desktop\BackEndMoura3Sem\BackEnd\Exercicio08\bin\Debug\net10.0\Exercicio08.deps.json
+C:\Users\42400772819\Desktop\BackEndMoura3Sem\BackEnd\Exercicio08\bin\Debug\net10.0\Exercicio08.runtimeconfig.json
+C:\Users\42400772819\Desktop\BackEndMoura3Sem\BackEnd\Exercicio08\bin\Debug\net10.0\Exercicio08.dll
+C:\Users\42400772819\Desktop\BackEndMoura3Sem\BackEnd\Exercicio08\bin\Debug\net10.0\Exercicio08.pdb
+C:\Users\42400772819\Desktop\BackEndMoura3Sem\BackEnd\Exercicio08\obj\Debug\net10.0\Exercicio08.dll
+C:\Users\42400772819\Desktop\BackEndMoura3Sem\BackEnd\Exercicio08\obj\Debug\net10.0\refint\Exercicio08.dll
+C:\Users\42400772819\Desktop\BackEndMoura3Sem\BackEnd\Exercicio08\obj\Debug\net10.0\Exercicio08.pdb
+C:\Users\42400772819\Desktop\BackEndMoura3Sem\BackEnd\Exercicio08\obj\Debug\net10.0\Exercicio08.genruntimeconfig.cache
+C:\Users\42400772819\Desktop\BackEndMoura3Sem\BackEnd\Exercicio08\obj\Debug\net10.0\ref\Exercicio08.dll
