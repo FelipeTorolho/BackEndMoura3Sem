@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "FilmesMoura.WebAPI.Controllers.GeneroController",
+    "Method": "Cadastrar",
+    "RelativePath": "api/Genero",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NovoGenero",
+        "Type": "Filmes.WebAPI.Models.Genero",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
