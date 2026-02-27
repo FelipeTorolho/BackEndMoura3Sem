@@ -1,7 +1,112 @@
 [
   {
+    "ContainingType": "Filmes.WebAPI.Controllers.FilmeController",
+    "Method": "Get",
+    "RelativePath": "api/Filme",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Filmes.WebAPI.Controllers.FilmeController",
+    "Method": "Post",
+    "RelativePath": "api/Filme",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "novoFilme",
+        "Type": "Filmes.WebAPI.Models.Filme",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Filmes.WebAPI.Controllers.FilmeController",
+    "Method": "PutBody",
+    "RelativePath": "api/Filme",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filmeAtualizado",
+        "Type": "Filmes.WebAPI.Models.Filme",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Filmes.WebAPI.Controllers.FilmeController",
+    "Method": "GetById",
+    "RelativePath": "api/Filme/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Filmes.WebAPI.Controllers.FilmeController",
+    "Method": "Delete",
+    "RelativePath": "api/Filme/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Filmes.WebAPI.Controllers.FilmeController",
+    "Method": "Put",
+    "RelativePath": "api/Filme/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "filmeAtualizado",
+        "Type": "Filmes.WebAPI.Models.Filme",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "FilmesMoura.WebAPI.Controllers.GeneroController",
-    "Method": "Cadastrar",
+    "Method": "Get",
+    "RelativePath": "api/Genero",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmesMoura.WebAPI.Controllers.GeneroController",
+    "Method": "Post",
     "RelativePath": "api/Genero",
     "HttpMethod": "POST",
     "IsController": true,
@@ -10,6 +115,75 @@
       {
         "Name": "NovoGenero",
         "Type": "Filmes.WebAPI.Models.Genero",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmesMoura.WebAPI.Controllers.GeneroController",
+    "Method": "PutBody",
+    "RelativePath": "api/Genero",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "generoAtualizado",
+        "Type": "Filmes.WebAPI.Models.Genero",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmesMoura.WebAPI.Controllers.GeneroController",
+    "Method": "GetById",
+    "RelativePath": "api/Genero/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmesMoura.WebAPI.Controllers.GeneroController",
+    "Method": "Put",
+    "RelativePath": "api/Genero/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "generoAtualizado",
+        "Type": "Filmes.WebAPI.Models.Genero",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmesMoura.WebAPI.Controllers.GeneroController",
+    "Method": "Delete",
+    "RelativePath": "api/Genero/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
         "IsRequired": true
       }
     ],
