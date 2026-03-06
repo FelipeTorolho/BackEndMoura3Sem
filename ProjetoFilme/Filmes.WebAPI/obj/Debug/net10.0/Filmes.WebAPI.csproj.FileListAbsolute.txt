@@ -156,3 +156,11 @@ C:\Users\42400772819\Desktop\BackEndMoura3Sem\ProjetoFilme\Filmes.WebAPI\bin\Deb
 C:\Users\42400772819\Desktop\BackEndMoura3Sem\ProjetoFilme\Filmes.WebAPI\bin\Debug\net10.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\42400772819\Desktop\BackEndMoura3Sem\ProjetoFilme\Filmes.WebAPI\obj\Debug\net10.0\Filmes.WebAPI.csproj.AssemblyReference.cache
 C:\Users\42400772819\Desktop\BackEndMoura3Sem\ProjetoFilme\Filmes.WebAPI\obj\Debug\net10.0\Filmes.W.B006F276.Up2Date
+C:\Users\42400772819\Desktop\BackEndMoura3Sem\ProjetoFilme\Filmes.WebAPI\bin\Debug\net10.0\BCrypt.Net-Next.dll
+C:\Users\42400772819\Desktop\BackEndMoura3Sem\ProjetoFilme\Filmes.WebAPI\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\42400772819\Desktop\BackEndMoura3Sem\ProjetoFilme\Filmes.WebAPI\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Users\42400772819\Desktop\BackEndMoura3Sem\ProjetoFilme\Filmes.WebAPI\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\42400772819\Desktop\BackEndMoura3Sem\ProjetoFilme\Filmes.WebAPI\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\42400772819\Desktop\BackEndMoura3Sem\ProjetoFilme\Filmes.WebAPI\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\42400772819\Desktop\BackEndMoura3Sem\ProjetoFilme\Filmes.WebAPI\obj\Debug\net10.0\Filmes.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\42400772819\Desktop\BackEndMoura3Sem\ProjetoFilme\Filmes.WebAPI\bin\Debug\net10.0\Filmes.WebAPI.staticwebassets.runtime.json
