@@ -6,17 +6,14 @@ using Microsoft.EntityFrameworkCore;
 
 namespace EventPlus.WebAPI.Models;
 
-[Table("CometarioEvento")]
-public partial class CometarioEvento
+[Table("ComentarioEvento")]
+public partial class ComentarioEvento
 {
     [Key]
     public Guid IdComentarioEvento { get; set; }
 
     [Column(TypeName = "datetime")]
     public DateTime DataComentarioEvento { get; set; }
-
-    [StringLength(100)]
-    public string Nome { get; set; } = null!;
 
     [StringLength(200)]
     public string Descricao { get; set; } = null!;
@@ -28,10 +25,10 @@ public partial class CometarioEvento
     public Guid? IdEvento { get; set; }
 
     [ForeignKey("IdEvento")]
-    [InverseProperty("CometarioEventos")]
+    [InverseProperty("ComentarioEventos")]
     public virtual Evento? IdEventoNavigation { get; set; }
 
     [ForeignKey("IdUsuario")]
-    [InverseProperty("CometarioEventos")]
+    [InverseProperty("ComentarioEventos")]
     public virtual Usuario? IdUsuarioNavigation { get; set; }
 }

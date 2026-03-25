@@ -16,7 +16,7 @@ public partial class EventContext : DbContext
     {
     }
 
-    public virtual DbSet<CometarioEvento> CometarioEventos { get; set; }
+    public virtual DbSet<ComentarioEvento> ComentarioEventos { get; set; }
 
     public virtual DbSet<Evento> Eventos { get; set; }
 
@@ -36,15 +36,15 @@ public partial class EventContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<CometarioEvento>(entity =>
+        modelBuilder.Entity<ComentarioEvento>(entity =>
         {
             entity.HasKey(e => e.IdComentarioEvento).HasName("PK__Cometari__4305A1F170F85804");
 
             entity.Property(e => e.IdComentarioEvento).HasDefaultValueSql("(newid())");
 
-            entity.HasOne(d => d.IdEventoNavigation).WithMany(p => p.CometarioEventos).HasConstraintName("FK__Cometario__IdEve__76969D2E");
+            entity.HasOne(d => d.IdEventoNavigation).WithMany(p => p.ComentarioEventos) .HasForeignKey(d => d.IdEvento);
 
-            entity.HasOne(d => d.IdUsuarioNavigation).WithMany(p => p.CometarioEventos).HasConstraintName("FK__Cometario__IdUsu__75A278F5");
+            entity.HasOne(d => d.IdUsuarioNavigation).WithMany(p => p.ComentarioEventos).HasForeignKey(d => d.IdUsuario);
         });
 
         modelBuilder.Entity<Evento>(entity =>

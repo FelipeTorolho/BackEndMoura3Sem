@@ -27,7 +27,7 @@ public partial class Usuario
 
     [JsonIgnore]
     [InverseProperty("IdUsuarioNavigation")]
-    public virtual ICollection<CometarioEvento> CometarioEventos { get; set; } = new List<CometarioEvento>();
+    public virtual ICollection<ComentarioEvento> ComentarioEventos { get; set; } = new List<ComentarioEvento>();
 
     [ForeignKey("IdTipoUsuario")]
     [InverseProperty("Usuarios")]

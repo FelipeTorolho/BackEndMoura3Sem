@@ -29,7 +29,7 @@ public partial class Evento
 
     [JsonIgnore]
     [InverseProperty("IdEventoNavigation")]
-    public virtual ICollection<CometarioEvento> CometarioEventos { get; set; } = new List<CometarioEvento>();
+    public virtual ICollection<ComentarioEvento> ComentarioEventos { get; set; } = new List<ComentarioEvento>();
 
     [ForeignKey("IdInstituicao")]
     [InverseProperty("Eventos")]
