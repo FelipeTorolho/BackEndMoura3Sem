@@ -1,0 +1,377 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "API para gerenciar contatos",
+    "description": "API para gerenciamento de contatos",
+    "termsOfService": "https://example.com/terms",
+    "contact": {
+      "name": "Felipe Torolho",
+      "url": "https://github.com/FelipeTorolho"
+    },
+    "license": {
+      "name": "Example License",
+      "url": "https://example.com/licenca"
+    },
+    "version": "v1"
+  },
+  "paths": {
+    "/api/Contato": {
+      "post": {
+        "tags": [
+          "Contato"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "required": [
+                  "DadosContato",
+                  "Imagem",
+                  "Nome"
+                ],
+                "type": "object",
+                "properties": {
+                  "Id": {
+                    "type": "string",
+                    "format": "uuid"
+                  },
+                  "Nome": {
+                    "type": "string"
+                  },
+                  "DadosContato": {
+                    "type": "string"
+                  },
+                  "Imagem": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "TipoContatoId": {
+                    "type": "string",
+                    "format": "uuid"
+                  }
+                }
+              },
+              "encoding": {
+                "Id": {
+                  "style": "form"
+                },
+                "Nome": {
+                  "style": "form"
+                },
+                "DadosContato": {
+                  "style": "form"
+                },
+                "Imagem": {
+                  "style": "form"
+                },
+                "TipoContatoId": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Contato"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Contato/{id}": {
+      "get": {
+        "tags": [
+          "Contato"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Contato"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Contato/{Id}": {
+      "put": {
+        "tags": [
+          "Contato"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "required": [
+                  "DadosContato",
+                  "Imagem",
+                  "Nome"
+                ],
+                "type": "object",
+                "properties": {
+                  "Id": {
+                    "type": "string",
+                    "format": "uuid"
+                  },
+                  "Nome": {
+                    "type": "string"
+                  },
+                  "DadosContato": {
+                    "type": "string"
+                  },
+                  "Imagem": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "TipoContatoId": {
+                    "type": "string",
+                    "format": "uuid"
+                  }
+                }
+              },
+              "encoding": {
+                "Id": {
+                  "style": "form"
+                },
+                "Nome": {
+                  "style": "form"
+                },
+                "DadosContato": {
+                  "style": "form"
+                },
+                "Imagem": {
+                  "style": "form"
+                },
+                "TipoContatoId": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/TipoContato": {
+      "post": {
+        "tags": [
+          "TipoContato"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TipoContatoDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TipoContatoDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TipoContatoDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "TipoContato"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/TipoContato/{id}": {
+      "get": {
+        "tags": [
+          "TipoContato"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "TipoContato"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TipoContatoDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TipoContatoDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TipoContatoDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "TipoContato"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "TipoContatoDTO": {
+        "required": [
+          "titulo"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "titulo": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "http",
+        "description": "Insira o token JWT:",
+        "scheme": "Bearer",
+        "bearerFormat": "JWT"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ],
+  "tags": [
+    {
+      "name": "Contato"
+    },
+    {
+      "name": "TipoContato"
+    }
+  ]
+}

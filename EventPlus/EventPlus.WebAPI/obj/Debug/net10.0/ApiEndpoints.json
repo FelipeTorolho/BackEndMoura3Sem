@@ -17,27 +17,6 @@
   },
   {
     "ContainingType": "EventPlus.WebAPI.Controllers.ComentarioEventoController",
-    "Method": "BuscarPorId",
-    "RelativePath": "api/ComentarioEvento",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "idEvento",
-        "Type": "System.Guid",
-        "IsRequired": false
-      },
-      {
-        "Name": "idUsuario",
-        "Type": "System.Guid",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "EventPlus.WebAPI.Controllers.ComentarioEventoController",
     "Method": "Listar",
     "RelativePath": "api/ComentarioEvento",
     "HttpMethod": "GET",
@@ -64,6 +43,32 @@
         "Name": "id",
         "Type": "System.Guid",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EventPlus.WebAPI.Controllers.ComentarioEventoController",
+    "Method": "BuscarPorId",
+    "RelativePath": "api/ComentarioEvento/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idEvento",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "idUsuario",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
